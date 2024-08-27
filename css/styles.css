@@ -1,146 +1,133 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
 .navbar {
-    background-color: #0055A4;
+  background-color: #0055A4;
 }
 
 .navbar-collapse {
-    align-items: center;
-    justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .nav-link {
-    background-color: red !important; 
-    color: white !important;
-    margin: 2px;
-    border: 1px solid white;
-    border-radius: 5px;
-    text-decoration: none; 
+  background-color: red !important;
+  color: white !important;
+  margin: 2px;
+  border: 1px solid white;
+  border-radius: 5px;
+  text-decoration: none;
 }
 
 .Titulo {
-    color:  #FFFFFF; 
-    text-align: center;
+  color: #FFFFFF;
+  text-align: center;
 }
 
-/* main */
 .Historia-container {
-    background-color: #FFFFFF;
-    margin-top: 100px;
-    margin-left: 30px;
+  background-color: #FFFFFF;
+  margin-top: 100px;
+  margin-left: 30px;
 }
 
-.plantelprincipal{
-    margin-top: 150px;
+.plantelprincipal {
+  margin-top: 150px;
 }
 
 .contenedores {
-    background-color: #FAB630;
-    width: 350px;
-    height: 180px;
-    color: black;
-    border: 2px solid red;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    display: inline-block;
+  background-color: #FAB630;
+  width: 350px;
+  height: 180px;
+  color: black;
+  border: 2px solid red;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: inline-block;
 }
+
 .yale {
-    width: 100px !important;
-    height: 90px;
-    margin-left: 60px;
+  width: 100px !important;
+  height: 90px;
+  margin-left: 60px;
 }
 
 .marne {
-    width: 100px !important;
-    height: 90px;
+  width: 100px !important;
+  height: 90px;
 }
 
-.slide{
-    width: 500px;
-    height: 200px;
-    margin-bottom: 500px;
-    margin-top: 200px;
+.slide {
+  width: 500px;
+  height: 200px;
+  margin-bottom: 500px;
+  margin-top: 200px;
 }
 
 .himno {
-    margin-top: 80px;
+  margin-top: 80px;
 }
 
 .actividades li {
-    margin-top: 10px;
-    margin-right: 40px;
-    font-size: 35px;
-    font-weight: bold;
-    text-align: center;
-    background-color: #FAB630;
-    color: white;
-    
-    
+  margin-top: 10px;
+  margin-right: 40px;
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #FAB630;
+  color: white;
 }
-
 .actividades li a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 .subtitulo {
-    
-    margin-top: 100px;
+  margin-top: 100px;
 }
 
 .registro {
-    margin-bottom: 180px;
+  margin-bottom: 180px;
 }
 
 .contacto {
-   margin-top: 80px;
-   margin-bottom: 200px;
+  margin-top: 80px;
+  margin-bottom: 200px;
 }
-
-
-/* footer */
-.pie-pagina {
-    background-color:#EF4135;
-    color: white;
-    width: 100vw;
-    height: 120px;
-    text-align: left;
-    padding-top: 15px;
-    align-items: center;
-    justify-content: center;
-}
-
 
 .pie-pagina {
-    background-color: #EF4135;
-    color: white;
-    width: 100vw;
-    height: 120px;
-    text-align: center;
-    padding-top: 15px;
-    align-items: center;
-    justify-content: center;
+  background-color: #EF4135;
+  color: white;
+  width: 100vw;
+  height: 120px;
+  text-align: center;
+  padding-top: 15px;
+  align-items: center;
+  justify-content: center;
 }
-
 
 footer ul li {
-    display: inline-block;  
+  display: inline-block;
 }
 
 .icons {
-    align-items: center;
-    justify-content: center;
-    padding-top: 18px;
-    color: white;
-    list-style-type: none;
+  align-items: center;
+  justify-content: center;
+  padding-top: 18px;
+  color: white;
+  list-style-type: none;
 }
 
-/* media queries */
-@media screen and (max-width: 767px){
-    .navbar-brand {
-        display: none;
-    }
-} 
+@media screen and (max-width: 767px) {
+  .navbar-brand {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
