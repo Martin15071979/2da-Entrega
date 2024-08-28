@@ -1,54 +1,9 @@
-* {
-    margin: 0;
-    padding: 0;
-}
+@import "./utilidades/reset";
+@import "./utilidades/variables";
+@import "./utilidades/mixins";
+@import "./utilidades/animaciones";
+@import "./estructura/header";
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
-// Define a map for navbar colors
-$navbar-colors: (
-    default: #0055A4,
-);
-
-// Mixin for common navbar styles
-@mixin navbar-style($bg-color) {
-    background-color: $bg-color;
-}
-
-// Navbar
-.navbar {
-    @include navbar-style(map-get($navbar-colors, default));
-}
-
-// Navbar collapse styles
-.navbar-collapse {
-    align-items: center;
-    justify-content: space-between;
-}
-
-// Mixin for nav-link styles
-@mixin nav-link-style($bg-color) {
-    background-color: $bg-color !important;
-    color: white !important;
-    margin: 2px;
-    border: 1px solid white;
-    border-radius: 5px;
-    text-decoration: none;
-}
-
-// Nav link
-.nav-link {
-    @include nav-link-style(red);
-}
-
-// Title styles
-.Titulo {
-    color: #FFFFFF;
-    text-align: center;
-}
 
 // Main container styles
 .Historia-container {
@@ -158,7 +113,6 @@ footer ul {
     justify-content: center;
     padding-top: 18px;
     color: white;
-    list-style-type: none;
 }
 
 // Media queries
